@@ -12,7 +12,7 @@
 
 @section('main-content')
 <section>
-    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima amet rerum facere distinctio voluptatibus quo? Quia libero at possimus quisquam adipisci itaque quasi cupiditate nulla? Consequatur quam at quae.</h5>
+    <h5 class="my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima amet rerum facere distinctio voluptatibus quo? Quia libero at possimus quisquam adipisci itaque quasi cupiditate nulla? Consequatur quam at quae.</h5>
 </section>
 
 @endsection
