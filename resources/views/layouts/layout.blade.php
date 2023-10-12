@@ -32,8 +32,8 @@
     <main class="container">
         @yield('main-content')
     </main>
-    
-    <footer class="container">
+
+    <footer class="footer-zone py-3">
         @include('partials.footer')
     </footer>
     
