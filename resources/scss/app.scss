@@ -4,3 +4,41 @@
     background-color: rgba(255, 0, 0, 0.3);
     border: 1px dashed red;
 }
+
+.header-zone {
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+
+    ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 10px;
+        li {
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+
+            &:nth-child(2) {
+                margin-left: auto;
+            }
+
+            &:hover {
+                color: blue;
+                border-bottom: 1px solid blue;
+                padding-bottom: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: currentColor;
+        }
+
+        img {
+            width: 50px;
+            display: block;
+        }
+    }
+}
