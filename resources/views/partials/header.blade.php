@@ -1,5 +1,5 @@
 <header>
-    <section class="header-zone container">
+    <section class="header-zone ">
 
         <ul>
             <li>

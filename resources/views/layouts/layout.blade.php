@@ -15,13 +15,25 @@
 
 </head>
 <body>
-    <header>
+    {{-- linea blu  --}}
+    <section id="linea-blu">
+        inserisci info della linea blu
+    </section>
+
+    <header class="container">
         @include('partials.header')
     </header>
-    <main>
+
+    {{-- jumbothrone --}}
+    <section>
+        <h1 class="debug">jumbothrone</h1>
+    </section>
+
+    <main class="container">
         @yield('main-content')
     </main>
-    <footer>
+    
+    <footer class="container">
         @include('partials.footer')
     </footer>
     

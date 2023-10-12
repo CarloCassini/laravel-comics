@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $links = config('db_links.links');
+    $comics = config('db_comics');
 
-    return view('jumbo', compact('links'));
+
+
+    return view('jumbo', compact('links', 'comics'));
 })->name('jumbo');

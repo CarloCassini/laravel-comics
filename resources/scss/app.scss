@@ -5,6 +5,12 @@
     border: 1px dashed red;
 }
 
+#linea-blu {
+    background-color: aqua;
+    height: 20px;
+    color: white;
+}
+
 .header-zone {
     background-color: white;
     height: 100px;
@@ -15,6 +21,7 @@
         justify-content: end;
         align-items: center;
         gap: 10px;
+
         li {
             display: inline-block;
             text-decoration: none;

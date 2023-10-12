@@ -9,7 +9,10 @@
 
 @section('main-content')
 <section>
-    <h5 class="my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima amet rerum facere distinctio voluptatibus quo? Quia libero at possimus quisquam adipisci itaque quasi cupiditate nulla? Consequatur quam at quae.</h5>
+    @foreach ($comics as $comic)
+         {{ $comic['title']}} 
+        <br>
+    @endforeach
 </section>
 
 @endsection
