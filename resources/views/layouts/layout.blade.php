@@ -25,8 +25,8 @@
     </header>
 
     {{-- jumbothrone --}}
-    <section>
-        <h1 class="debug">jumbothrone</h1>
+    <section class="debug">
+        <img src="public\images\jumbotron.jpg" alt="">
     </section>
 
     <main class="container">
