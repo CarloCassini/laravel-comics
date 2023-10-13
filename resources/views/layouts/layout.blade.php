@@ -25,8 +25,8 @@
     </header>
 
     {{-- jumbothrone --}}
-    <section class="debug">
-        <img src="public\images\jumbotron.jpg" alt="">
+    <section class="debug jumbo">
+        <img src="{{Vite::asset('public/images/jumbotron.jpg')}}" alt="">
     </section>
 
     <main class="container">

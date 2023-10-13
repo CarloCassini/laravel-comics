@@ -11,6 +11,14 @@
     color: white;
 }
 
+.jumbo {
+    height: 50vh;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
 .header-zone {
     background-color: white;
     height: 100px;
